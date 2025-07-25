@@ -1,0 +1,65 @@
+***intro
+Every variable in C has a name and a value associated with it. When a variable is declared, a specific
+block of memory within the computer is allocated to hold the value of that variable.every variable in C has a value and also a memory location (commonly known as
+address) associated with it. We will use terms rvalue and lvalue for the value and the address of
+the variable, respectively
+- Pointers are used to pass information back and forth between functions.
+- Pointers enable the programmers to return multiple data items from a function via function
+arguments.
+- Pointers provide an alternate way to access the individual elements of an array
+We can ‘dereference’ a pointer, i.e., we can refer to the value of the variable to which it points
+by using the unary * operator as in *ptr
+for example
+
+
+
+#include <stdio.h>
+int main()
+{
+int num, *pnum;
+pnum = &num;
+printf("\n Enter the number : ");
+scanf("%d", &num);
+printf("\n The number that was entered is : %d", *pnum);
+return 0;
+}
+
+
+
+***Pointer Expressions
+
+if ptr1 and
+ptr2 are pointers, then the following statements are valid:
+
+EXAMPLE
+
+int num1 = 2, num2 = 3, sum = 0, mul = 0, div = 1;
+int *ptr1, *ptr2;
+ptr1 = &num1;
+ptr2 = &num2;
+sum = *ptr1 + *ptr2;
+mul = sum * (*ptr1);
+*ptr2 += 1;
+div = 9 + (*ptr1)/(*ptr2) – 30;
+
+***Generic Pointers
+Generic pointers are often used when you want a pointer to point to data of different types at
+different times.
+
+
+#include <stdio.h>
+int main()
+{
+int x=10;
+char ch = ‘A’;
+void *gp;
+gp = &x;
+printf("\n Generic pointer points to the integer value = %d", *(int*)gp);
+gp = &ch;
+printf("\n Generic pointer now points to the character= %c", *(char*)gp);
+return 0;
+}
+
+
+
+"Pointers are integral to implementing data structures and algorithms in C, making the code more adaptable and efficient"
