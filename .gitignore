@@ -1,0 +1,9 @@
+# Ignore compiled binary files
+*.o
+*.exe
+*.out
+*.obj
+
+# Ignore backup/temporary files
+*~
+*.log
