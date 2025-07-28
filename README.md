@@ -1,5 +1,5 @@
-![Top Language](https://img.shields.io/github/languages/top/Manarsenic/Data-Structures-in-C)
-![Last Commit](https://img.shields.io/github/last-commit/Manarsenic/Data-Structures-in-C)
-![Repo Size](https://img.shields.io/github/repo-size/Manarsenic/Data-Structures-in-C)
-![License](https://img.shields.io/github/license/Manarsenic/Data-Structures-in-C)
-![Stars](https://img.shields.io/github/stars/Manarsenic/Data-Structures-in-C?style=social)
+![C](https://img.shields.io/badge/language-C-blue)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# Data Structures in C
+*A collection of classic data structures implemented in C*
