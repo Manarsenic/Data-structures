@@ -15,6 +15,7 @@ This folder contains implementations of classic sorting and searching algorithms
 | Insertion Sort   | O(n)     | O(n²)    | O(n²)    | O(1)   | Yes    |
 | Merge Sort       | O(nlogn) | O(nlogn) | O(nlogn) | O(n)   | Yes    |
 | Quick Sort       | O(nlogn) | O(nlogn) | O(n²)    | O(logn)| No     |
+| HEAP SORT        |
 
 ### Searching Algorithms
 
@@ -22,6 +23,7 @@ This folder contains implementations of classic sorting and searching algorithms
 |------------------|-------|---------|--------|--------|--------------------|
 | Linear Search    | O(1)  | O(n)    | O(n)   | O(1)   | Works on any array |
 | Binary Search    | O(1)  | O(logn) | O(logn)| O(1)   | Requires sorted array |
+| INTERPOLITIAN SEARCH EXPLANATON|||
 
 ---
 
