@@ -1,22 +1,24 @@
 # Sorting and Searching Algorithms
 
+# Sorting and Searching Algorithms
+
 This folder contains implementations of classic sorting and searching algorithms in C.
 
 ---
 
-## 📊 Time and Space Complexities
+### Time and Space Complexities
 
-### Sorting Algorithms
+#### Sorting Algorithms
 
-| Algorithm        | Best     | Average  | Worst    | Space  | Stable |
-|------------------|----------|----------|----------|--------|--------|
-| Bubble Sort      | O(n)     | O(n²)    | O(n²)    | O(1)   | Yes    |
-| Selection Sort   | O(n²)    | O(n²)    | O(n²)    | O(1)   | No     |
-| Insertion Sort   | O(n)     | O(n²)    | O(n²)    | O(1)   | Yes    |
-| Merge Sort       | O(nlogn) | O(nlogn) | O(nlogn) | O(n)   | Yes    |
-| Quick Sort       | O(nlogn) | O(nlogn) | O(n²)    | O(logn)| No     |
-| HEAP SORT        |
-
+| Algorithm | Best Case | Average Case | Worst Case | Space Complexity | Stable |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Bubble Sort** | O(n) | O(n²) | O(n²) | O(1) | Yes |
+| **Insertion Sort** | O(n) | O(n²) | O(n²) | O(1) | Yes |
+| **Selection Sort** | O(n²) | O(n²) | O(n²) | O(1) | No |
+| **Merge Sort** | O(n log n) | O(n log n) | O(n log n) | O(n) | Yes |
+| **Quick Sort** | O(n log n) | O(n log n) | O(n²) | O(log n) | No |
+| **Heap Sort** | O(n log n) | O(n log n) | O(n log n) | O(1) | No |
+| **Radix Sort** | O(nk) | O(nk) | O(nk) | O(n+k) | Yes |
 ### Searching Algorithms
 
 | Algorithm        | Best  | Average | Worst | Space | Note               |
