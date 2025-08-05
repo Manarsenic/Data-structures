@@ -1,7 +1,5 @@
 # Sorting and Searching Algorithms
 
-# Sorting and Searching Algorithms
-
 This folder contains implementations of classic sorting and searching algorithms in C.
 
 ---
